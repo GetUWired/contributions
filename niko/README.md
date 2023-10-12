@@ -3,6 +3,13 @@
 Here are a couple snippets that can make for some cleaner and more modern radio
 and textarea input fields:
 
+## React in WordPress
+
+This is just some information about how to use `@wordpress/scripts` to set up a
+React App within a WordPress Gutenberg Block.
+
+[Guide](react-in-wordpress)
+
 ## Label within textarea
 
 This is a textarea with a label that looks like it sits within it. When the
