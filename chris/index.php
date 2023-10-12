@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Lorem Custom Button
+Plugin Name: Custom Gutenberg Button 
 Description: advanced button for Lorem theme
 Version 1.0
 Auther: Chris
@@ -8,7 +8,7 @@ Auther: Chris
 
 if( ! defined( 'ABSPATH' ) ) exit; //Exit if accessed directly(security measure)
 
-class LoremCustomBlock {
+class CustomButtonBlock {
     function __construct() {
         add_action('init', array($this, 'adminAssets'));
     }
@@ -35,4 +35,4 @@ class LoremCustomBlock {
     }
 }
 
-$testBlock1 = new LoremCustomBlock();
+$testBlock1 = new CustomButtonBlock();
