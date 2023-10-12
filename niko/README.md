@@ -8,13 +8,13 @@ and textarea input fields:
 This is just some information about how to use `@wordpress/scripts` to set up a
 React App within a WordPress Gutenberg Block.
 
-[Guide](react-in-wordpress)
+[Guide](guides/react-in-wordpress)
 
 ## TailwindCSS in WordPress
 
 This is a guide on how to use Vite to add TailwindCSS to a WordPress theme.
 
-[Guide](tailwind-in-wordpress)
+[Guide](guides/tailwind-in-wordpress)
 
 ## Label within textarea
 
@@ -22,14 +22,14 @@ This is a textarea with a label that looks like it sits within it. When the
 textarea is active, the label moves up and out of the way and a yellow shadow
 appears on the bottom.
 
-![label within textarea](label-within-textarea/label-within-textarea.png)
+![label within textarea](components/label-within-textarea/label-within-textarea.png)
 
-[Source](label-within-textarea)
+[Source](components/label-within-textarea)
 
 ## Stylized radio buttons
 
 These are radio buttons stylized with images that change when selected.
 
-![stylized radio buttons](stylized-radio-buttons/stylized-radio-buttons.png)
+![stylized radio buttons](components/stylized-radio-buttons/stylized-radio-buttons.png)
 
-[Source](stylized-radio-buttons)
+[Source](components/stylized-radio-buttons)
