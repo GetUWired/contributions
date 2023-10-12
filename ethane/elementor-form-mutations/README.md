@@ -1,0 +1,3 @@
+# Dynamic Redirects Using Mutation Observer
+
+Elementor forms allow actions after submit. One of which is to redirect the visitor. However, Elementor only allows you to specify a single redirection link. What if you want to redirect based on options in a drop down from the form? Or some other field? Mutation observers can come in handy there. The observer watches for the confirmation to appear and then makes sure the text content lines up with the text that appears in a submission successful message. Once it appears, it checks the value and redirects the visitor to the appropriate location.

@@ -2,8 +2,8 @@ import { TextControl, PanelBody, PanelRow, ColorPicker, SelectControl } from "@w
 import { InspectorControls } from "@wordpress/block-editor";
 import "./index.css";
 
-wp.blocks.registerBlockType("myplugin/lorem-custom-block", {
-    title: "Lorem Custom Button",
+wp.blocks.registerBlockType("myplugin/custom-gutenberg-block", {
+    title: "Custom Gutenberg Button",
     icon: "button",
     category: "common",
     attributes: {
@@ -121,7 +121,7 @@ wp.blocks.registerBlockType("myplugin/lorem-custom-block", {
         );
     },
     save: function(props) {
-        //use php to render output based on the namspace "myplugin/lorem-custom-block" in the index.php
+        //use php to render output based on the namspace "myplugin/custom-gutenberg-block" in the index.php
         return null;
     },
 })

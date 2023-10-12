@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Lorem Custom Button
+Plugin Name: Custom Gutenberg Button 
 Description: advanced button for Lorem theme
 Version 1.0
 Auther: Chris
@@ -8,14 +8,14 @@ Auther: Chris
 
 if( ! defined( 'ABSPATH' ) ) exit; //Exit if accessed directly(security measure)
 
-class LoremCustomBlock {
+class CustomButtonBlock {
     function __construct() {
         add_action('init', array($this, 'adminAssets'));
     }
     function adminAssets() {
         wp_register_style('lorembtncss', plugin_dir_url(__FILE__) . 'build/index.css');
         wp_register_script('mynewblocktype', plugin_dir_url(__FILE__) . 'build/index.js', array('wp-blocks', 'wp-element', 'wp-editor'));
-        register_block_type('myplugin/lorem-custom-block', array(
+        register_block_type('myplugin/custom-gutenberg-block', array(
             'editor_script' => 'mynewblocktype',
             'editor_style' => 'lorembtncss',
             'render_callback' => array($this, 'theHTML')
@@ -35,4 +35,4 @@ class LoremCustomBlock {
     }
 }
 
-$testBlock1 = new LoremCustomBlock();
+$testBlock1 = new CustomButtonBlock();
