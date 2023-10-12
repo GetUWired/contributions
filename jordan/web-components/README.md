@@ -3,9 +3,15 @@
 ## Setup
 You must create a script that registers the components with the browser. This is done by calling the `define` function on the `customElements` object. The first argument is the name of the component, the second is the class that extends `HTMLElement` that defines the component.
 
-```javascript
+The script must be included as a module in the HTML file before the component is used.
+
+```html
+<script type="module" src="spinner-input.js"></script>
+<script type="module" src="number-spinner.js"></script>
+<script>
 customElements.define('spinner-input', SpinnerInput);
 customElements.define('number-spinner', NumberSpinner);
+</script>
 ```
 ## Usage
 
