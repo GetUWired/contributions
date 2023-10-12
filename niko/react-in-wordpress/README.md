@@ -91,7 +91,7 @@ React App to it.
 
    ```json
    {
-     "viewScript": "file:./frontend.js"
+     "viewScript": "file:./frontend.jsx"
    }
    ```
 
