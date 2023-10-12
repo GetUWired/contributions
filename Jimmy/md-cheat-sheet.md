@@ -1,4 +1,18 @@
-# Markdown Basics Training
+# Advanced Markdown Training
+
+## Table of Contents
+
+- [Headings](#headings)
+- [Emphasis](#emphasis)
+- [Lists](#lists)
+- [Links](#links)
+- [Images](#images)
+- [Blockquotes](#blockquotes)
+- [Code](#code)
+- [Horizontal Rule](#horizontal-rule)
+- [Tables](#tables)
+- [Task Lists](#task-lists)
+- [Line Breaks](#line-breaks)
 
 ## Headings
 
