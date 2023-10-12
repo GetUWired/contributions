@@ -10,6 +10,12 @@ React App within a WordPress Gutenberg Block.
 
 [Guide](react-in-wordpress)
 
+## TailwindCSS in WordPress
+
+This is a guide on how to use Vite to add TailwindCSS to a WordPress theme.
+
+[Guide](tailwind-in-wordpress)
+
 ## Label within textarea
 
 This is a textarea with a label that looks like it sits within it. When the
