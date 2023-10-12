@@ -1,4 +1,4 @@
-# Advanced Markdown Training
+# Markdown Cheat Sheet
 
 ## Table of Contents
 
