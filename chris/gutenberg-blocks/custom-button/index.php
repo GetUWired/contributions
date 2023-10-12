@@ -15,7 +15,7 @@ class CustomButtonBlock {
     function adminAssets() {
         wp_register_style('lorembtncss', plugin_dir_url(__FILE__) . 'build/index.css');
         wp_register_script('mynewblocktype', plugin_dir_url(__FILE__) . 'build/index.js', array('wp-blocks', 'wp-element', 'wp-editor'));
-        register_block_type('myplugin/lorem-custom-block', array(
+        register_block_type('myplugin/custom-gutenberg-block', array(
             'editor_script' => 'mynewblocktype',
             'editor_style' => 'lorembtncss',
             'render_callback' => array($this, 'theHTML')
