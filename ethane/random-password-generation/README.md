@@ -23,13 +23,9 @@ retrieve and decrypt the passwords using a master password.
 
 ## Installation
 
-1. Clone the repository:
-
-`git clone https://github.com/erelsop/randPass.git`
+1. Pull the necessary files from this repo:
 
 2. Navigate to the project directory
-
-`cd randPass`
 
 3. Install the dependencies:
 
